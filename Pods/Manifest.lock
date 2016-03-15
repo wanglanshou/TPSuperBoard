@@ -1,0 +1,19 @@
+PODS:
+  - Masonry (0.6.4)
+  - TPiOSFramework (1.2.6):
+    - Masonry (~> 0.6.4)
+    - TPiOSFramework/TPAudio (= 1.2.6)
+    - TPiOSFramework/TPMenuItemsView (= 1.2.6)
+  - TPiOSFramework/TPAudio (1.2.6):
+    - Masonry (~> 0.6.4)
+  - TPiOSFramework/TPMenuItemsView (1.2.6):
+    - Masonry (~> 0.6.4)
+
+DEPENDENCIES:
+  - TPiOSFramework
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  TPiOSFramework: f24d19dea4dcade1d849668c6593a18c750bbb90
+
+COCOAPODS: 0.39.0

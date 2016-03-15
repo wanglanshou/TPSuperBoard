@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		214C7C4A1C97B9D600D864DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C491C97B9D600D864DA /* main.m */; };
+		214C7C4D1C97B9D600D864DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C4C1C97B9D600D864DA /* AppDelegate.m */; };
+		214C7C501C97B9D600D864DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C4F1C97B9D600D864DA /* ViewController.m */; };
+		214C7C531C97B9D600D864DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214C7C511C97B9D600D864DA /* Main.storyboard */; };
+		214C7C551C97B9D600D864DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214C7C541C97B9D600D864DA /* Assets.xcassets */; };
+		214C7C581C97B9D600D864DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214C7C561C97B9D600D864DA /* LaunchScreen.storyboard */; };
+		214C7C631C97B9D600D864DA /* SuperBordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C621C97B9D600D864DA /* SuperBordDemoTests.m */; };
+		214C7C6E1C97B9D600D864DA /* SuperBordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C6D1C97B9D600D864DA /* SuperBordDemoUITests.m */; };
+		214C7C991C97BA3C00D864DA /* SuperBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C7E1C97BA3B00D864DA /* SuperBoardViewController.m */; };
+		214C7C9A1C97BA3C00D864DA /* ImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C821C97BA3C00D864DA /* ImageCropView.m */; };
+		214C7C9B1C97BA3C00D864DA /* ImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C841C97BA3C00D864DA /* ImageCropViewController.m */; };
+		214C7C9C1C97BA3C00D864DA /* PenStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C871C97BA3C00D864DA /* PenStyleModel.m */; };
+		214C7C9D1C97BA3C00D864DA /* SuperBoardBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C8A1C97BA3C00D864DA /* SuperBoardBottomView.m */; };
+		214C7C9E1C97BA3C00D864DA /* SuperBoardMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C8C1C97BA3C00D864DA /* SuperBoardMainView.m */; };
+		214C7C9F1C97BA3C00D864DA /* SuperBoardRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C8E1C97BA3C00D864DA /* SuperBoardRightView.m */; };
+		214C7CA01C97BA3C00D864DA /* SuperBoardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C901C97BA3C00D864DA /* SuperBoardScrollView.m */; };
+		214C7CA11C97BA3C00D864DA /* TPMiniMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C921C97BA3C00D864DA /* TPMiniMapView.m */; };
+		214C7CA21C97BA3C00D864DA /* TPSuperBoardCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C941C97BA3C00D864DA /* TPSuperBoardCanvasView.m */; };
+		214C7CA31C97BA3C00D864DA /* TPSuperBoardColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C961C97BA3C00D864DA /* TPSuperBoardColorPickerView.m */; };
+		214C7CA41C97BA3C00D864DA /* WhiteBoardBottomView+Function.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C981C97BA3C00D864DA /* WhiteBoardBottomView+Function.m */; };
+		214C7D4A1C9800F800D864DA /* TPWhiteBoard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 214C7D491C9800F800D864DA /* TPWhiteBoard.bundle */; };
+		2BCD518CC009214FDD03177C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D668063680DE777313B389D1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		214C7C5F1C97B9D600D864DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214C7C3D1C97B9D600D864DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214C7C441C97B9D600D864DA;
+			remoteInfo = SuperBordDemo;
+		};
+		214C7C6A1C97B9D600D864DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214C7C3D1C97B9D600D864DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214C7C441C97B9D600D864DA;
+			remoteInfo = SuperBordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		214C7C451C97B9D600D864DA /* SuperBordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperBordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214C7C491C97B9D600D864DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		214C7C4B1C97B9D600D864DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		214C7C4C1C97B9D600D864DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		214C7C4E1C97B9D600D864DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		214C7C4F1C97B9D600D864DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		214C7C521C97B9D600D864DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		214C7C541C97B9D600D864DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		214C7C571C97B9D600D864DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		214C7C591C97B9D600D864DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214C7C5E1C97B9D600D864DA /* SuperBordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperBordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214C7C621C97B9D600D864DA /* SuperBordDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperBordDemoTests.m; sourceTree = "<group>"; };
+		214C7C641C97B9D600D864DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214C7C691C97B9D600D864DA /* SuperBordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperBordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214C7C6D1C97B9D600D864DA /* SuperBordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperBordDemoUITests.m; sourceTree = "<group>"; };
+		214C7C6F1C97B9D600D864DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214C7C7D1C97BA3B00D864DA /* SuperBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardViewController.h; sourceTree = "<group>"; };
+		214C7C7E1C97BA3B00D864DA /* SuperBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardViewController.m; sourceTree = "<group>"; };
+		214C7C811C97BA3C00D864DA /* ImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropView.h; sourceTree = "<group>"; };
+		214C7C821C97BA3C00D864DA /* ImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropView.m; sourceTree = "<group>"; };
+		214C7C831C97BA3C00D864DA /* ImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropViewController.h; sourceTree = "<group>"; };
+		214C7C841C97BA3C00D864DA /* ImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropViewController.m; sourceTree = "<group>"; };
+		214C7C861C97BA3C00D864DA /* PenStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenStyleModel.h; sourceTree = "<group>"; };
+		214C7C871C97BA3C00D864DA /* PenStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenStyleModel.m; sourceTree = "<group>"; };
+		214C7C891C97BA3C00D864DA /* SuperBoardBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardBottomView.h; sourceTree = "<group>"; };
+		214C7C8A1C97BA3C00D864DA /* SuperBoardBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardBottomView.m; sourceTree = "<group>"; };
+		214C7C8B1C97BA3C00D864DA /* SuperBoardMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardMainView.h; sourceTree = "<group>"; };
+		214C7C8C1C97BA3C00D864DA /* SuperBoardMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardMainView.m; sourceTree = "<group>"; };
+		214C7C8D1C97BA3C00D864DA /* SuperBoardRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardRightView.h; sourceTree = "<group>"; };
+		214C7C8E1C97BA3C00D864DA /* SuperBoardRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardRightView.m; sourceTree = "<group>"; };
+		214C7C8F1C97BA3C00D864DA /* SuperBoardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardScrollView.h; sourceTree = "<group>"; };
+		214C7C901C97BA3C00D864DA /* SuperBoardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardScrollView.m; sourceTree = "<group>"; };
+		214C7C911C97BA3C00D864DA /* TPMiniMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPMiniMapView.h; sourceTree = "<group>"; };
+		214C7C921C97BA3C00D864DA /* TPMiniMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPMiniMapView.m; sourceTree = "<group>"; };
+		214C7C931C97BA3C00D864DA /* TPSuperBoardCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardCanvasView.h; sourceTree = "<group>"; };
+		214C7C941C97BA3C00D864DA /* TPSuperBoardCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardCanvasView.m; sourceTree = "<group>"; };
+		214C7C951C97BA3C00D864DA /* TPSuperBoardColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardColorPickerView.h; sourceTree = "<group>"; };
+		214C7C961C97BA3C00D864DA /* TPSuperBoardColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardColorPickerView.m; sourceTree = "<group>"; };
+		214C7C971C97BA3C00D864DA /* WhiteBoardBottomView+Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WhiteBoardBottomView+Function.h"; sourceTree = "<group>"; };
+		214C7C981C97BA3C00D864DA /* WhiteBoardBottomView+Function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WhiteBoardBottomView+Function.m"; sourceTree = "<group>"; };
+		214C7D481C97F3D900D864DA /* TPSuperboardDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPSuperboardDefine.h; sourceTree = "<group>"; };
+		214C7D491C9800F800D864DA /* TPWhiteBoard.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TPWhiteBoard.bundle; sourceTree = "<group>"; };
+		47212FEFD59A927E7C281E27 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		491DBF8361BA69376C260305 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D668063680DE777313B389D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214C7C421C97B9D600D864DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCD518CC009214FDD03177C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214C7C5B1C97B9D600D864DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214C7C661C97B9D600D864DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214C7C3C1C97B9D600D864DA = {
+			isa = PBXGroup;
+			children = (
+				214C7C7B1C97BA3B00D864DA /* SuperBoard */,
+				214C7C471C97B9D600D864DA /* SuperBordDemo */,
+				214C7C611C97B9D600D864DA /* SuperBordDemoTests */,
+				214C7C6C1C97B9D600D864DA /* SuperBordDemoUITests */,
+				214C7C461C97B9D600D864DA /* Products */,
+				6FC851D71876902EC584F0DE /* Pods */,
+				A60A96294B264CD5ACFD89FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		214C7C461C97B9D600D864DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C451C97B9D600D864DA /* SuperBordDemo.app */,
+				214C7C5E1C97B9D600D864DA /* SuperBordDemoTests.xctest */,
+				214C7C691C97B9D600D864DA /* SuperBordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		214C7C471C97B9D600D864DA /* SuperBordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C4B1C97B9D600D864DA /* AppDelegate.h */,
+				214C7C4C1C97B9D600D864DA /* AppDelegate.m */,
+				214C7C4E1C97B9D600D864DA /* ViewController.h */,
+				214C7C4F1C97B9D600D864DA /* ViewController.m */,
+				214C7C511C97B9D600D864DA /* Main.storyboard */,
+				214C7C541C97B9D600D864DA /* Assets.xcassets */,
+				214C7C561C97B9D600D864DA /* LaunchScreen.storyboard */,
+				214C7C591C97B9D600D864DA /* Info.plist */,
+				214C7C481C97B9D600D864DA /* Supporting Files */,
+			);
+			path = SuperBordDemo;
+			sourceTree = "<group>";
+		};
+		214C7C481C97B9D600D864DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C491C97B9D600D864DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		214C7C611C97B9D600D864DA /* SuperBordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C621C97B9D600D864DA /* SuperBordDemoTests.m */,
+				214C7C641C97B9D600D864DA /* Info.plist */,
+			);
+			path = SuperBordDemoTests;
+			sourceTree = "<group>";
+		};
+		214C7C6C1C97B9D600D864DA /* SuperBordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C6D1C97B9D600D864DA /* SuperBordDemoUITests.m */,
+				214C7C6F1C97B9D600D864DA /* Info.plist */,
+			);
+			path = SuperBordDemoUITests;
+			sourceTree = "<group>";
+		};
+		214C7C7B1C97BA3B00D864DA /* SuperBoard */ = {
+			isa = PBXGroup;
+			children = (
+				214C7D491C9800F800D864DA /* TPWhiteBoard.bundle */,
+				214C7C7C1C97BA3B00D864DA /* Controller */,
+				214C7C7F1C97BA3B00D864DA /* Func */,
+				214C7C851C97BA3C00D864DA /* Model */,
+				214C7C881C97BA3C00D864DA /* View */,
+			);
+			path = SuperBoard;
+			sourceTree = "<group>";
+		};
+		214C7C7C1C97BA3B00D864DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C7D1C97BA3B00D864DA /* SuperBoardViewController.h */,
+				214C7C7E1C97BA3B00D864DA /* SuperBoardViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		214C7C7F1C97BA3B00D864DA /* Func */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C801C97BA3B00D864DA /* ImageCrop */,
+				214C7D481C97F3D900D864DA /* TPSuperboardDefine.h */,
+			);
+			path = Func;
+			sourceTree = "<group>";
+		};
+		214C7C801C97BA3B00D864DA /* ImageCrop */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C811C97BA3C00D864DA /* ImageCropView.h */,
+				214C7C821C97BA3C00D864DA /* ImageCropView.m */,
+				214C7C831C97BA3C00D864DA /* ImageCropViewController.h */,
+				214C7C841C97BA3C00D864DA /* ImageCropViewController.m */,
+			);
+			path = ImageCrop;
+			sourceTree = "<group>";
+		};
+		214C7C851C97BA3C00D864DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C861C97BA3C00D864DA /* PenStyleModel.h */,
+				214C7C871C97BA3C00D864DA /* PenStyleModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		214C7C881C97BA3C00D864DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				214C7C891C97BA3C00D864DA /* SuperBoardBottomView.h */,
+				214C7C8A1C97BA3C00D864DA /* SuperBoardBottomView.m */,
+				214C7C8B1C97BA3C00D864DA /* SuperBoardMainView.h */,
+				214C7C8C1C97BA3C00D864DA /* SuperBoardMainView.m */,
+				214C7C8D1C97BA3C00D864DA /* SuperBoardRightView.h */,
+				214C7C8E1C97BA3C00D864DA /* SuperBoardRightView.m */,
+				214C7C8F1C97BA3C00D864DA /* SuperBoardScrollView.h */,
+				214C7C901C97BA3C00D864DA /* SuperBoardScrollView.m */,
+				214C7C911C97BA3C00D864DA /* TPMiniMapView.h */,
+				214C7C921C97BA3C00D864DA /* TPMiniMapView.m */,
+				214C7C931C97BA3C00D864DA /* TPSuperBoardCanvasView.h */,
+				214C7C941C97BA3C00D864DA /* TPSuperBoardCanvasView.m */,
+				214C7C951C97BA3C00D864DA /* TPSuperBoardColorPickerView.h */,
+				214C7C961C97BA3C00D864DA /* TPSuperBoardColorPickerView.m */,
+				214C7C971C97BA3C00D864DA /* WhiteBoardBottomView+Function.h */,
+				214C7C981C97BA3C00D864DA /* WhiteBoardBottomView+Function.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FC851D71876902EC584F0DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				491DBF8361BA69376C260305 /* Pods.debug.xcconfig */,
+				47212FEFD59A927E7C281E27 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A60A96294B264CD5ACFD89FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D668063680DE777313B389D1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		214C7C441C97B9D600D864DA /* SuperBordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214C7C721C97B9D600D864DA /* Build configuration list for PBXNativeTarget "SuperBordDemo" */;
+			buildPhases = (
+				D73E802A09042D91360D7B64 /* Check Pods Manifest.lock */,
+				214C7C411C97B9D600D864DA /* Sources */,
+				214C7C421C97B9D600D864DA /* Frameworks */,
+				214C7C431C97B9D600D864DA /* Resources */,
+				BE1688F6FA4622CCADA7B896 /* Embed Pods Frameworks */,
+				962DB37BA1070905AE7E3A24 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperBordDemo;
+			productName = SuperBordDemo;
+			productReference = 214C7C451C97B9D600D864DA /* SuperBordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		214C7C5D1C97B9D600D864DA /* SuperBordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214C7C751C97B9D600D864DA /* Build configuration list for PBXNativeTarget "SuperBordDemoTests" */;
+			buildPhases = (
+				214C7C5A1C97B9D600D864DA /* Sources */,
+				214C7C5B1C97B9D600D864DA /* Frameworks */,
+				214C7C5C1C97B9D600D864DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214C7C601C97B9D600D864DA /* PBXTargetDependency */,
+			);
+			name = SuperBordDemoTests;
+			productName = SuperBordDemoTests;
+			productReference = 214C7C5E1C97B9D600D864DA /* SuperBordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		214C7C681C97B9D600D864DA /* SuperBordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214C7C781C97B9D600D864DA /* Build configuration list for PBXNativeTarget "SuperBordDemoUITests" */;
+			buildPhases = (
+				214C7C651C97B9D600D864DA /* Sources */,
+				214C7C661C97B9D600D864DA /* Frameworks */,
+				214C7C671C97B9D600D864DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214C7C6B1C97B9D600D864DA /* PBXTargetDependency */,
+			);
+			name = SuperBordDemoUITests;
+			productName = SuperBordDemoUITests;
+			productReference = 214C7C691C97B9D600D864DA /* SuperBordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		214C7C3D1C97B9D600D864DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wp;
+				TargetAttributes = {
+					214C7C441C97B9D600D864DA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					214C7C5D1C97B9D600D864DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 214C7C441C97B9D600D864DA;
+					};
+					214C7C681C97B9D600D864DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 214C7C441C97B9D600D864DA;
+					};
+				};
+			};
+			buildConfigurationList = 214C7C401C97B9D600D864DA /* Build configuration list for PBXProject "SuperBordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 214C7C3C1C97B9D600D864DA;
+			productRefGroup = 214C7C461C97B9D600D864DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				214C7C441C97B9D600D864DA /* SuperBordDemo */,
+				214C7C5D1C97B9D600D864DA /* SuperBordDemoTests */,
+				214C7C681C97B9D600D864DA /* SuperBordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214C7C431C97B9D600D864DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214C7D4A1C9800F800D864DA /* TPWhiteBoard.bundle in Resources */,
+				214C7C581C97B9D600D864DA /* LaunchScreen.storyboard in Resources */,
+				214C7C551C97B9D600D864DA /* Assets.xcassets in Resources */,
+				214C7C531C97B9D600D864DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214C7C5C1C97B9D600D864DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214C7C671C97B9D600D864DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		962DB37BA1070905AE7E3A24 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE1688F6FA4622CCADA7B896 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D73E802A09042D91360D7B64 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214C7C411C97B9D600D864DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214C7CA01C97BA3C00D864DA /* SuperBoardScrollView.m in Sources */,
+				214C7C9D1C97BA3C00D864DA /* SuperBoardBottomView.m in Sources */,
+				214C7C9C1C97BA3C00D864DA /* PenStyleModel.m in Sources */,
+				214C7CA21C97BA3C00D864DA /* TPSuperBoardCanvasView.m in Sources */,
+				214C7C9F1C97BA3C00D864DA /* SuperBoardRightView.m in Sources */,
+				214C7C501C97B9D600D864DA /* ViewController.m in Sources */,
+				214C7C9E1C97BA3C00D864DA /* SuperBoardMainView.m in Sources */,
+				214C7C9A1C97BA3C00D864DA /* ImageCropView.m in Sources */,
+				214C7C9B1C97BA3C00D864DA /* ImageCropViewController.m in Sources */,
+				214C7CA11C97BA3C00D864DA /* TPMiniMapView.m in Sources */,
+				214C7C4D1C97B9D600D864DA /* AppDelegate.m in Sources */,
+				214C7C4A1C97B9D600D864DA /* main.m in Sources */,
+				214C7C991C97BA3C00D864DA /* SuperBoardViewController.m in Sources */,
+				214C7CA31C97BA3C00D864DA /* TPSuperBoardColorPickerView.m in Sources */,
+				214C7CA41C97BA3C00D864DA /* WhiteBoardBottomView+Function.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214C7C5A1C97B9D600D864DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214C7C631C97B9D600D864DA /* SuperBordDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214C7C651C97B9D600D864DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214C7C6E1C97B9D600D864DA /* SuperBordDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		214C7C601C97B9D600D864DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214C7C441C97B9D600D864DA /* SuperBordDemo */;
+			targetProxy = 214C7C5F1C97B9D600D864DA /* PBXContainerItemProxy */;
+		};
+		214C7C6B1C97B9D600D864DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214C7C441C97B9D600D864DA /* SuperBordDemo */;
+			targetProxy = 214C7C6A1C97B9D600D864DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		214C7C511C97B9D600D864DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214C7C521C97B9D600D864DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		214C7C561C97B9D600D864DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214C7C571C97B9D600D864DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		214C7C701C97B9D600D864DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		214C7C711C97B9D600D864DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		214C7C731C97B9D600D864DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491DBF8361BA69376C260305 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperBordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.SuperBordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		214C7C741C97B9D600D864DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47212FEFD59A927E7C281E27 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperBordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.SuperBordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		214C7C761C97B9D600D864DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperBordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.SuperBordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperBordDemo.app/SuperBordDemo";
+			};
+			name = Debug;
+		};
+		214C7C771C97B9D600D864DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperBordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.SuperBordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperBordDemo.app/SuperBordDemo";
+			};
+			name = Release;
+		};
+		214C7C791C97B9D600D864DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperBordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.SuperBordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperBordDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		214C7C7A1C97B9D600D864DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperBordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.SuperBordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperBordDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214C7C401C97B9D600D864DA /* Build configuration list for PBXProject "SuperBordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214C7C701C97B9D600D864DA /* Debug */,
+				214C7C711C97B9D600D864DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214C7C721C97B9D600D864DA /* Build configuration list for PBXNativeTarget "SuperBordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214C7C731C97B9D600D864DA /* Debug */,
+				214C7C741C97B9D600D864DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214C7C751C97B9D600D864DA /* Build configuration list for PBXNativeTarget "SuperBordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214C7C761C97B9D600D864DA /* Debug */,
+				214C7C771C97B9D600D864DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214C7C781C97B9D600D864DA /* Build configuration list for PBXNativeTarget "SuperBordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214C7C791C97B9D600D864DA /* Debug */,
+				214C7C7A1C97B9D600D864DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 214C7C3D1C97B9D600D864DA /* Project object */;
+}

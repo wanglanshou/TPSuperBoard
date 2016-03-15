@@ -1,0 +1,1 @@
+../../../../TPiOSFramework/TPFrequentlyDemo/TPAudio/lame.framework/Headers/lame.h
