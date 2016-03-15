@@ -1,10 +1,11 @@
 
 
+
 #TPiOSFramework.podspec
 Pod::Spec.new do |s|
 
 	s.name		= "TPSuperBoard"
-	s.version	= "0.0.2"
+	s.version	= "0.0.3"
 	s.summary	= "TPSuperboard provide you edit a photo on a view"
 	s.homepage 	= "https://github.com/wanglanshou"
 	s.license	= "mit"

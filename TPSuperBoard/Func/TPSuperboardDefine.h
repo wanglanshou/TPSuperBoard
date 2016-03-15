@@ -11,6 +11,7 @@
 
 
 #import <TPBasePreDefine.h>
+#import "TPBasePreDefine.h"
 
 
 #define kNotification_TPSuperBoard_ColorDidChaged @"kNotification_TPSuperBoard_ColorDidChaged"
