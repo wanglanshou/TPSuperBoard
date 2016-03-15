@@ -14,7 +14,7 @@
 
 @end
 
-@interface ImageCropViewController : UIViewController
+@interface TPSuperBoardImageCropViewController : UIViewController
 @property (nonatomic,weak) id<ImageCropDelegate> delegate;
 
 - (instancetype) initWithImage:(UIImage *)image;

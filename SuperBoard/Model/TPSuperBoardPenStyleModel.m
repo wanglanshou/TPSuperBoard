@@ -6,17 +6,17 @@
 //  Copyright (c) 2015年 张珏. All rights reserved.
 //
 
-#import "PenStyleModel.h"
+#import "TPSuperBoardPenStyleModel.h"
 #import "TPSuperboardDefine.h"
 #import "TPSuperboardDefine.h"
 
-@implementation PenStyleModel
+@implementation TPSuperBoardPenStyleModel
 
 + (instancetype) sharedInstance{
     static dispatch_once_t oneToken;
-    static PenStyleModel *model;
+    static TPSuperBoardPenStyleModel *model;
     dispatch_once(&oneToken, ^{
-        model = [[PenStyleModel alloc] init];
+        model = [[TPSuperBoardPenStyleModel alloc] init];
     });
     return model;
     
@@ -35,7 +35,7 @@
 
 - (id)copyWithZone:(NSZone *)zone
 {
-    PenStyleModel *penStypeModel = [[[self class] allocWithZone:zone] init];
+    TPSuperBoardPenStyleModel *penStypeModel = [[[self class] allocWithZone:zone] init];
     penStypeModel.color = self.color;
     penStypeModel.isStraightLine = self.isStraightLine;
     penStypeModel.isSolidLine = self.isSolidLine;

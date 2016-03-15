@@ -15,19 +15,19 @@
 		214C7C581C97B9D600D864DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214C7C561C97B9D600D864DA /* LaunchScreen.storyboard */; };
 		214C7C631C97B9D600D864DA /* SuperBordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C621C97B9D600D864DA /* SuperBordDemoTests.m */; };
 		214C7C6E1C97B9D600D864DA /* SuperBordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C6D1C97B9D600D864DA /* SuperBordDemoUITests.m */; };
-		214C7C991C97BA3C00D864DA /* SuperBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C7E1C97BA3B00D864DA /* SuperBoardViewController.m */; };
-		214C7C9A1C97BA3C00D864DA /* ImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C821C97BA3C00D864DA /* ImageCropView.m */; };
-		214C7C9B1C97BA3C00D864DA /* ImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C841C97BA3C00D864DA /* ImageCropViewController.m */; };
-		214C7C9C1C97BA3C00D864DA /* PenStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C871C97BA3C00D864DA /* PenStyleModel.m */; };
-		214C7C9D1C97BA3C00D864DA /* SuperBoardBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C8A1C97BA3C00D864DA /* SuperBoardBottomView.m */; };
-		214C7C9E1C97BA3C00D864DA /* SuperBoardMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C8C1C97BA3C00D864DA /* SuperBoardMainView.m */; };
-		214C7C9F1C97BA3C00D864DA /* SuperBoardRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C8E1C97BA3C00D864DA /* SuperBoardRightView.m */; };
-		214C7CA01C97BA3C00D864DA /* SuperBoardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C901C97BA3C00D864DA /* SuperBoardScrollView.m */; };
-		214C7CA11C97BA3C00D864DA /* TPMiniMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C921C97BA3C00D864DA /* TPMiniMapView.m */; };
+		214C7C991C97BA3C00D864DA /* TPSuperBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C7E1C97BA3B00D864DA /* TPSuperBoardViewController.m */; };
+		214C7C9A1C97BA3C00D864DA /* TPSuperBoardImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C821C97BA3C00D864DA /* TPSuperBoardImageCropView.m */; };
+		214C7C9B1C97BA3C00D864DA /* TPSuperBoardImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C841C97BA3C00D864DA /* TPSuperBoardImageCropViewController.m */; };
+		214C7C9C1C97BA3C00D864DA /* TPSuperBoardPenStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C871C97BA3C00D864DA /* TPSuperBoardPenStyleModel.m */; };
+		214C7C9D1C97BA3C00D864DA /* TPSuperBoardBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C8A1C97BA3C00D864DA /* TPSuperBoardBottomView.m */; };
+		214C7C9E1C97BA3C00D864DA /* TPSuperBoardMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C8C1C97BA3C00D864DA /* TPSuperBoardMainView.m */; };
+		214C7C9F1C97BA3C00D864DA /* TPSuperBoardRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C8E1C97BA3C00D864DA /* TPSuperBoardRightView.m */; };
+		214C7CA01C97BA3C00D864DA /* TPSuperBoardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C901C97BA3C00D864DA /* TPSuperBoardScrollView.m */; };
+		214C7CA11C97BA3C00D864DA /* TPSuperBoardMiniMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C921C97BA3C00D864DA /* TPSuperBoardMiniMapView.m */; };
 		214C7CA21C97BA3C00D864DA /* TPSuperBoardCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C941C97BA3C00D864DA /* TPSuperBoardCanvasView.m */; };
 		214C7CA31C97BA3C00D864DA /* TPSuperBoardColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C961C97BA3C00D864DA /* TPSuperBoardColorPickerView.m */; };
-		214C7CA41C97BA3C00D864DA /* WhiteBoardBottomView+Function.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7C981C97BA3C00D864DA /* WhiteBoardBottomView+Function.m */; };
 		214C7D4A1C9800F800D864DA /* TPWhiteBoard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 214C7D491C9800F800D864DA /* TPWhiteBoard.bundle */; };
+		214C7D4D1C980B5900D864DA /* TPSuperBoardBottomView+Function.m in Sources */ = {isa = PBXBuildFile; fileRef = 214C7D4C1C980B5900D864DA /* TPSuperBoardBottomView+Function.m */; };
 		2BCD518CC009214FDD03177C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D668063680DE777313B389D1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -65,32 +65,32 @@
 		214C7C691C97B9D600D864DA /* SuperBordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperBordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		214C7C6D1C97B9D600D864DA /* SuperBordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperBordDemoUITests.m; sourceTree = "<group>"; };
 		214C7C6F1C97B9D600D864DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		214C7C7D1C97BA3B00D864DA /* SuperBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardViewController.h; sourceTree = "<group>"; };
-		214C7C7E1C97BA3B00D864DA /* SuperBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardViewController.m; sourceTree = "<group>"; };
-		214C7C811C97BA3C00D864DA /* ImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropView.h; sourceTree = "<group>"; };
-		214C7C821C97BA3C00D864DA /* ImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropView.m; sourceTree = "<group>"; };
-		214C7C831C97BA3C00D864DA /* ImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropViewController.h; sourceTree = "<group>"; };
-		214C7C841C97BA3C00D864DA /* ImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropViewController.m; sourceTree = "<group>"; };
-		214C7C861C97BA3C00D864DA /* PenStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenStyleModel.h; sourceTree = "<group>"; };
-		214C7C871C97BA3C00D864DA /* PenStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenStyleModel.m; sourceTree = "<group>"; };
-		214C7C891C97BA3C00D864DA /* SuperBoardBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardBottomView.h; sourceTree = "<group>"; };
-		214C7C8A1C97BA3C00D864DA /* SuperBoardBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardBottomView.m; sourceTree = "<group>"; };
-		214C7C8B1C97BA3C00D864DA /* SuperBoardMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardMainView.h; sourceTree = "<group>"; };
-		214C7C8C1C97BA3C00D864DA /* SuperBoardMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardMainView.m; sourceTree = "<group>"; };
-		214C7C8D1C97BA3C00D864DA /* SuperBoardRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardRightView.h; sourceTree = "<group>"; };
-		214C7C8E1C97BA3C00D864DA /* SuperBoardRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardRightView.m; sourceTree = "<group>"; };
-		214C7C8F1C97BA3C00D864DA /* SuperBoardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBoardScrollView.h; sourceTree = "<group>"; };
-		214C7C901C97BA3C00D864DA /* SuperBoardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBoardScrollView.m; sourceTree = "<group>"; };
-		214C7C911C97BA3C00D864DA /* TPMiniMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPMiniMapView.h; sourceTree = "<group>"; };
-		214C7C921C97BA3C00D864DA /* TPMiniMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPMiniMapView.m; sourceTree = "<group>"; };
+		214C7C7D1C97BA3B00D864DA /* TPSuperBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardViewController.h; sourceTree = "<group>"; };
+		214C7C7E1C97BA3B00D864DA /* TPSuperBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardViewController.m; sourceTree = "<group>"; };
+		214C7C811C97BA3C00D864DA /* TPSuperBoardImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardImageCropView.h; sourceTree = "<group>"; };
+		214C7C821C97BA3C00D864DA /* TPSuperBoardImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardImageCropView.m; sourceTree = "<group>"; };
+		214C7C831C97BA3C00D864DA /* TPSuperBoardImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardImageCropViewController.h; sourceTree = "<group>"; };
+		214C7C841C97BA3C00D864DA /* TPSuperBoardImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardImageCropViewController.m; sourceTree = "<group>"; };
+		214C7C861C97BA3C00D864DA /* TPSuperBoardPenStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardPenStyleModel.h; sourceTree = "<group>"; };
+		214C7C871C97BA3C00D864DA /* TPSuperBoardPenStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardPenStyleModel.m; sourceTree = "<group>"; };
+		214C7C891C97BA3C00D864DA /* TPSuperBoardBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardBottomView.h; sourceTree = "<group>"; };
+		214C7C8A1C97BA3C00D864DA /* TPSuperBoardBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardBottomView.m; sourceTree = "<group>"; };
+		214C7C8B1C97BA3C00D864DA /* TPSuperBoardMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardMainView.h; sourceTree = "<group>"; };
+		214C7C8C1C97BA3C00D864DA /* TPSuperBoardMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardMainView.m; sourceTree = "<group>"; };
+		214C7C8D1C97BA3C00D864DA /* TPSuperBoardRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardRightView.h; sourceTree = "<group>"; };
+		214C7C8E1C97BA3C00D864DA /* TPSuperBoardRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardRightView.m; sourceTree = "<group>"; };
+		214C7C8F1C97BA3C00D864DA /* TPSuperBoardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardScrollView.h; sourceTree = "<group>"; };
+		214C7C901C97BA3C00D864DA /* TPSuperBoardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardScrollView.m; sourceTree = "<group>"; };
+		214C7C911C97BA3C00D864DA /* TPSuperBoardMiniMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardMiniMapView.h; sourceTree = "<group>"; };
+		214C7C921C97BA3C00D864DA /* TPSuperBoardMiniMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardMiniMapView.m; sourceTree = "<group>"; };
 		214C7C931C97BA3C00D864DA /* TPSuperBoardCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardCanvasView.h; sourceTree = "<group>"; };
 		214C7C941C97BA3C00D864DA /* TPSuperBoardCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardCanvasView.m; sourceTree = "<group>"; };
 		214C7C951C97BA3C00D864DA /* TPSuperBoardColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSuperBoardColorPickerView.h; sourceTree = "<group>"; };
 		214C7C961C97BA3C00D864DA /* TPSuperBoardColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSuperBoardColorPickerView.m; sourceTree = "<group>"; };
-		214C7C971C97BA3C00D864DA /* WhiteBoardBottomView+Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WhiteBoardBottomView+Function.h"; sourceTree = "<group>"; };
-		214C7C981C97BA3C00D864DA /* WhiteBoardBottomView+Function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WhiteBoardBottomView+Function.m"; sourceTree = "<group>"; };
 		214C7D481C97F3D900D864DA /* TPSuperboardDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPSuperboardDefine.h; sourceTree = "<group>"; };
 		214C7D491C9800F800D864DA /* TPWhiteBoard.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TPWhiteBoard.bundle; sourceTree = "<group>"; };
+		214C7D4B1C980B5900D864DA /* TPSuperBoardBottomView+Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPSuperBoardBottomView+Function.h"; sourceTree = "<group>"; };
+		214C7D4C1C980B5900D864DA /* TPSuperBoardBottomView+Function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TPSuperBoardBottomView+Function.m"; sourceTree = "<group>"; };
 		47212FEFD59A927E7C281E27 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		491DBF8361BA69376C260305 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D668063680DE777313B389D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,8 +202,8 @@
 		214C7C7C1C97BA3B00D864DA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				214C7C7D1C97BA3B00D864DA /* SuperBoardViewController.h */,
-				214C7C7E1C97BA3B00D864DA /* SuperBoardViewController.m */,
+				214C7C7D1C97BA3B00D864DA /* TPSuperBoardViewController.h */,
+				214C7C7E1C97BA3B00D864DA /* TPSuperBoardViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -220,10 +220,10 @@
 		214C7C801C97BA3B00D864DA /* ImageCrop */ = {
 			isa = PBXGroup;
 			children = (
-				214C7C811C97BA3C00D864DA /* ImageCropView.h */,
-				214C7C821C97BA3C00D864DA /* ImageCropView.m */,
-				214C7C831C97BA3C00D864DA /* ImageCropViewController.h */,
-				214C7C841C97BA3C00D864DA /* ImageCropViewController.m */,
+				214C7C811C97BA3C00D864DA /* TPSuperBoardImageCropView.h */,
+				214C7C821C97BA3C00D864DA /* TPSuperBoardImageCropView.m */,
+				214C7C831C97BA3C00D864DA /* TPSuperBoardImageCropViewController.h */,
+				214C7C841C97BA3C00D864DA /* TPSuperBoardImageCropViewController.m */,
 			);
 			path = ImageCrop;
 			sourceTree = "<group>";
@@ -231,8 +231,8 @@
 		214C7C851C97BA3C00D864DA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				214C7C861C97BA3C00D864DA /* PenStyleModel.h */,
-				214C7C871C97BA3C00D864DA /* PenStyleModel.m */,
+				214C7C861C97BA3C00D864DA /* TPSuperBoardPenStyleModel.h */,
+				214C7C871C97BA3C00D864DA /* TPSuperBoardPenStyleModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,22 +240,22 @@
 		214C7C881C97BA3C00D864DA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				214C7C891C97BA3C00D864DA /* SuperBoardBottomView.h */,
-				214C7C8A1C97BA3C00D864DA /* SuperBoardBottomView.m */,
-				214C7C8B1C97BA3C00D864DA /* SuperBoardMainView.h */,
-				214C7C8C1C97BA3C00D864DA /* SuperBoardMainView.m */,
-				214C7C8D1C97BA3C00D864DA /* SuperBoardRightView.h */,
-				214C7C8E1C97BA3C00D864DA /* SuperBoardRightView.m */,
-				214C7C8F1C97BA3C00D864DA /* SuperBoardScrollView.h */,
-				214C7C901C97BA3C00D864DA /* SuperBoardScrollView.m */,
-				214C7C911C97BA3C00D864DA /* TPMiniMapView.h */,
-				214C7C921C97BA3C00D864DA /* TPMiniMapView.m */,
+				214C7C891C97BA3C00D864DA /* TPSuperBoardBottomView.h */,
+				214C7C8A1C97BA3C00D864DA /* TPSuperBoardBottomView.m */,
+				214C7C8B1C97BA3C00D864DA /* TPSuperBoardMainView.h */,
+				214C7C8C1C97BA3C00D864DA /* TPSuperBoardMainView.m */,
+				214C7C8D1C97BA3C00D864DA /* TPSuperBoardRightView.h */,
+				214C7C8E1C97BA3C00D864DA /* TPSuperBoardRightView.m */,
+				214C7C8F1C97BA3C00D864DA /* TPSuperBoardScrollView.h */,
+				214C7C901C97BA3C00D864DA /* TPSuperBoardScrollView.m */,
+				214C7C911C97BA3C00D864DA /* TPSuperBoardMiniMapView.h */,
+				214C7C921C97BA3C00D864DA /* TPSuperBoardMiniMapView.m */,
 				214C7C931C97BA3C00D864DA /* TPSuperBoardCanvasView.h */,
 				214C7C941C97BA3C00D864DA /* TPSuperBoardCanvasView.m */,
 				214C7C951C97BA3C00D864DA /* TPSuperBoardColorPickerView.h */,
 				214C7C961C97BA3C00D864DA /* TPSuperBoardColorPickerView.m */,
-				214C7C971C97BA3C00D864DA /* WhiteBoardBottomView+Function.h */,
-				214C7C981C97BA3C00D864DA /* WhiteBoardBottomView+Function.m */,
+				214C7D4B1C980B5900D864DA /* TPSuperBoardBottomView+Function.h */,
+				214C7D4C1C980B5900D864DA /* TPSuperBoardBottomView+Function.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -459,21 +459,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214C7CA01C97BA3C00D864DA /* SuperBoardScrollView.m in Sources */,
-				214C7C9D1C97BA3C00D864DA /* SuperBoardBottomView.m in Sources */,
-				214C7C9C1C97BA3C00D864DA /* PenStyleModel.m in Sources */,
+				214C7CA01C97BA3C00D864DA /* TPSuperBoardScrollView.m in Sources */,
+				214C7C9D1C97BA3C00D864DA /* TPSuperBoardBottomView.m in Sources */,
+				214C7C9C1C97BA3C00D864DA /* TPSuperBoardPenStyleModel.m in Sources */,
 				214C7CA21C97BA3C00D864DA /* TPSuperBoardCanvasView.m in Sources */,
-				214C7C9F1C97BA3C00D864DA /* SuperBoardRightView.m in Sources */,
+				214C7C9F1C97BA3C00D864DA /* TPSuperBoardRightView.m in Sources */,
 				214C7C501C97B9D600D864DA /* ViewController.m in Sources */,
-				214C7C9E1C97BA3C00D864DA /* SuperBoardMainView.m in Sources */,
-				214C7C9A1C97BA3C00D864DA /* ImageCropView.m in Sources */,
-				214C7C9B1C97BA3C00D864DA /* ImageCropViewController.m in Sources */,
-				214C7CA11C97BA3C00D864DA /* TPMiniMapView.m in Sources */,
+				214C7C9E1C97BA3C00D864DA /* TPSuperBoardMainView.m in Sources */,
+				214C7C9A1C97BA3C00D864DA /* TPSuperBoardImageCropView.m in Sources */,
+				214C7C9B1C97BA3C00D864DA /* TPSuperBoardImageCropViewController.m in Sources */,
+				214C7CA11C97BA3C00D864DA /* TPSuperBoardMiniMapView.m in Sources */,
 				214C7C4D1C97B9D600D864DA /* AppDelegate.m in Sources */,
 				214C7C4A1C97B9D600D864DA /* main.m in Sources */,
-				214C7C991C97BA3C00D864DA /* SuperBoardViewController.m in Sources */,
+				214C7C991C97BA3C00D864DA /* TPSuperBoardViewController.m in Sources */,
+				214C7D4D1C980B5900D864DA /* TPSuperBoardBottomView+Function.m in Sources */,
 				214C7CA31C97BA3C00D864DA /* TPSuperBoardColorPickerView.m in Sources */,
-				214C7CA41C97BA3C00D864DA /* WhiteBoardBottomView+Function.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

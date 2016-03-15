@@ -6,10 +6,10 @@
 //  Copyright (c) 2015年 wp. All rights reserved.
 //
 
-#import "TPMiniMapView.h"
+#import "TPSuperBoardMiniMapView.h"
 
 #import "TPSuperboardDefine.h"
-@interface TPMiniMapView()
+@interface TPSuperBoardMiniMapView()
 {
     UIView *_showView;
     UIImageView *_imageView;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation TPMiniMapView
+@implementation TPSuperBoardMiniMapView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     

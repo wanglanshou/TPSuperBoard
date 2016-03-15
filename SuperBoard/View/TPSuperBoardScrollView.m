@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 wp. All rights reserved.
 //
 
-#import "SuperBoardScrollView.h"
+#import "TPSuperBoardScrollView.h"
 
-#import "SuperBoardMainView.h"
+#import "TPSuperBoardMainView.h"
 
 #import "TPSuperboardDefine.h"
 
 #define SCREEN_SHOT_SEP 20
 
-@interface SuperBoardScrollView()<UIScrollViewDelegate>
+@interface TPSuperBoardScrollView()<UIScrollViewDelegate>
 {
     UIView *_backView;
     UIImageView *_imageView;//背景图片
@@ -22,7 +22,7 @@
 }
 @end
 
-@implementation SuperBoardScrollView
+@implementation TPSuperBoardScrollView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

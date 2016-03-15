@@ -15,7 +15,7 @@
 
 @end
 
-@interface ImageCropView : UIView
+@interface TPSuperBoardImageCropView : UIView
 
 @property (nonatomic,weak) id<ImageCropViewDelegate> delegate;
 - (instancetype)initWithFrame:(CGRect)frame image:(UIImage *)image;

@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SuperBoardRightView : UIView
+@interface TPSuperBoardRightView : UIView
 - (void)showRightView;//每次点击画笔的时候要显示右边的视图
 @end
 
 
-@interface WhiteBoardRightViewCell : UIButton
+@interface TPSuperBoardRightViewCell : UIButton
 {
     UIImageView *_backView;
 }

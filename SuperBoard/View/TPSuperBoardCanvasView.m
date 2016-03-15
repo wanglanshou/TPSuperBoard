@@ -9,8 +9,8 @@
 
 
 #import "TPSuperBoardCanvasView.h"
-#import "PenStyleModel.h"
-#import "SuperBoardScrollView.h"
+#import "TPSuperBoardPenStyleModel.h"
+#import "TPSuperBoardScrollView.h"
 
 @interface TPSuperBoardCanvasView()
 {
@@ -58,7 +58,7 @@
     CGPoint locationInView = [touch locationInView:self];
     
     //1 添加画笔的类型
-    PenStyleModel * brush = [[PenStyleModel sharedInstance] copy];
+    TPSuperBoardPenStyleModel * brush = [[TPSuperBoardPenStyleModel sharedInstance] copy];
     [_tempArray addObject:brush];
     
     //添加起始坐标
@@ -119,7 +119,7 @@
     CGFloat maxY = 0;
     
     for (NSArray *tempArray in _drawArray) {
-        PenStyleModel *model = [tempArray firstObject];
+        TPSuperBoardPenStyleModel *model = [tempArray firstObject];
         CGFloat penSize = model.penSize;
         for (int i=1; i<tempArray.count; i++) {
             NSValue *pointValue = [tempArray objectAtIndex:i];
@@ -151,7 +151,7 @@
         NSArray *array = [_drawArray objectAtIndex:i];
         //第一个元素是画笔的属性
         
-        PenStyleModel *model = [array firstObject];
+        TPSuperBoardPenStyleModel *model = [array firstObject];
         if (model.isEraser) {
             CGContextSetRGBStrokeColor(context, 1, 1, 1, 1);//线条颜色
             CGContextSetLineWidth(context, model.penSize);

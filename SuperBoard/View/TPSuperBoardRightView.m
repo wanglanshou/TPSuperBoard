@@ -6,21 +6,21 @@
 //  Copyright (c) 2015年 张珏. All rights reserved.
 //
 
-#import "SuperBoardRightView.h"
-#import "PenStyleModel.h"
+#import "TPSuperBoardRightView.h"
+#import "TPSuperBoardPenStyleModel.h"
 #define TopDownMargin 10
 #define CELLSEP 4
 #import "TPSuperboardDefine.h"
 //如果超过 DisplayTime没有进行任何操作，则会自动隐藏
 #define DisplayTime 5
-@interface SuperBoardRightView()
+@interface TPSuperBoardRightView()
 {
     NSArray *_imageArray;
 
 }
 @end
 
-@implementation SuperBoardRightView
+@implementation TPSuperBoardRightView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -55,7 +55,7 @@
 
     UIView *preView = nil;
     for (int i=0; i<_imageArray.count; i++) {
-        WhiteBoardRightViewCell *button = [WhiteBoardRightViewCell buttonWithType:UIButtonTypeCustom];
+        TPSuperBoardRightViewCell *button = [TPSuperBoardRightViewCell buttonWithType:UIButtonTypeCustom];
         CGRect frame = CGRectZero;
         CGRect imageFrame = CGRectZero;
         if (i == 0) {
@@ -111,45 +111,45 @@
 //画笔发生改变重新设置高亮的图片
 - (void)resetWithNewModel
 {
-    PenStyleModel *model = [PenStyleModel sharedInstance];
+    TPSuperBoardPenStyleModel *model = [TPSuperBoardPenStyleModel sharedInstance];
     
-    WhiteBoardRightViewCell *straightCell = (WhiteBoardRightViewCell *)[self viewWithTag:100];
+    TPSuperBoardRightViewCell *straightCell = (TPSuperBoardRightViewCell *)[self viewWithTag:100];
     straightCell.isSelected = model.isStraightLine;
     
-    WhiteBoardRightViewCell *curveCell = (WhiteBoardRightViewCell *)[self viewWithTag:101];
+    TPSuperBoardRightViewCell *curveCell = (TPSuperBoardRightViewCell *)[self viewWithTag:101];
     curveCell.isSelected = !model.isStraightLine;
 
-    WhiteBoardRightViewCell *solidCell = (WhiteBoardRightViewCell *)[self viewWithTag:103];
+    TPSuperBoardRightViewCell *solidCell = (TPSuperBoardRightViewCell *)[self viewWithTag:103];
     solidCell.isSelected = model.isSolidLine;
-    WhiteBoardRightViewCell *dashedCell = (WhiteBoardRightViewCell *)[self viewWithTag:104];
+    TPSuperBoardRightViewCell *dashedCell = (TPSuperBoardRightViewCell *)[self viewWithTag:104];
     dashedCell.isSelected = !model.isSolidLine;
     
 
     for (int i= 106; i<=109; i++) {
-        WhiteBoardRightViewCell *penCell = (WhiteBoardRightViewCell *)[self viewWithTag:i];
+        TPSuperBoardRightViewCell *penCell = (TPSuperBoardRightViewCell *)[self viewWithTag:i];
         penCell.isSelected = NO;
     }
     if (model.penSize == PenSize1) {
-        WhiteBoardRightViewCell *penCell = (WhiteBoardRightViewCell *)[self viewWithTag:106];
+        TPSuperBoardRightViewCell *penCell = (TPSuperBoardRightViewCell *)[self viewWithTag:106];
         penCell.isSelected = YES;
     }else if (model.penSize == PenSize2){
-        WhiteBoardRightViewCell *penCell = (WhiteBoardRightViewCell *)[self viewWithTag:107];
+        TPSuperBoardRightViewCell *penCell = (TPSuperBoardRightViewCell *)[self viewWithTag:107];
         penCell.isSelected = YES;
     }else if (model.penSize == PenSize3){
-        WhiteBoardRightViewCell *penCell = (WhiteBoardRightViewCell *)[self viewWithTag:108];
+        TPSuperBoardRightViewCell *penCell = (TPSuperBoardRightViewCell *)[self viewWithTag:108];
         penCell.isSelected = YES;
     }else if (model.penSize == PenSize4){
-        WhiteBoardRightViewCell *penCell = (WhiteBoardRightViewCell *)[self viewWithTag:109];
+        TPSuperBoardRightViewCell *penCell = (TPSuperBoardRightViewCell *)[self viewWithTag:109];
         penCell.isSelected = YES;
     }
     
     
 }
 
-- (void)btnClicked:(WhiteBoardRightViewCell *)cell
+- (void)btnClicked:(TPSuperBoardRightViewCell *)cell
 {
     [self showRightView];
-    PenStyleModel *model = [PenStyleModel sharedInstance];
+    TPSuperBoardPenStyleModel *model = [TPSuperBoardPenStyleModel sharedInstance];
     if (cell.tag == 100) {
         model.isStraightLine = YES;
     }else if (cell.tag == 101){
@@ -182,7 +182,7 @@
 @end
 
 
-@implementation WhiteBoardRightViewCell
+@implementation TPSuperBoardRightViewCell
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "TPSuperBoardCanvasView.h"
 
-@class SuperBoardMainView;
-@interface SuperBoardScrollView : UIScrollView<UIScrollViewDelegate>
-@property (nonatomic,weak) SuperBoardMainView *mainView;
+@class TPSuperBoardMainView;
+@interface TPSuperBoardScrollView : UIScrollView<UIScrollViewDelegate>
+@property (nonatomic,weak) TPSuperBoardMainView *mainView;
 
 - (void)selectedWithImage:(UIImage *)image;//选中了图片
 

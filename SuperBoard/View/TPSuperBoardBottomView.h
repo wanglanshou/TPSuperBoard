@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class SuperBoardMainView;
-@interface SuperBoardBottomView : UIView
-@property (nonatomic,weak) SuperBoardMainView *mainView;
+@class TPSuperBoardMainView;
+@interface TPSuperBoardBottomView : UIView
+@property (nonatomic,weak) TPSuperBoardMainView *mainView;
 
 @end

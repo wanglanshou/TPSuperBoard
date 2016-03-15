@@ -6,13 +6,14 @@
 //  Copyright (c) 2015年 张珏. All rights reserved.
 //
 
-#import "SuperBoardBottomView.h"
+#import "TPSuperBoardBottomView.h"
 
 #define BOTTOMVIEWHEIGHT 44
 
-#import "WhiteBoardBottomView+Function.h"
+
+#import "TPSuperBoardBottomView+Function.h"
 #import "TPSuperboardDefine.h"
-@interface SuperBoardBottomView()
+@interface TPSuperBoardBottomView()
 {
     
     NSArray *_bottomImageArray;
@@ -20,7 +21,7 @@
 
 @end
 
-@implementation SuperBoardBottomView
+@implementation TPSuperBoardBottomView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

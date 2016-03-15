@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TPMiniMapView : UIImageView
+@interface TPSuperBoardMiniMapView : UIImageView
 
 
 - (void)showViewLocatedX:(CGFloat)xPercent y:(CGFloat)yPercent sizeScale:(CGFloat)scale thumbnailImage:(UIImage *)thumbnailImage;

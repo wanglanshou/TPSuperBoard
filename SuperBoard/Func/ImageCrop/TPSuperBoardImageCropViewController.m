@@ -6,17 +6,17 @@
 //  Copyright (c) 2015年 张珏. All rights reserved.
 //
 
-#import "ImageCropViewController.h"
-#import "ImageCropView.h"
+#import "TPSuperBoardImageCropViewController.h"
+#import "TPSuperBoardImageCropView.h"
 #import "TPSuperboardDefine.h"
-@interface ImageCropViewController ()
+@interface TPSuperBoardImageCropViewController ()
 {
     UIImage *_image;
-    ImageCropView *_imageCropView;
+    TPSuperBoardImageCropView *_imageCropView;
 }
 @end
 
-@implementation ImageCropViewController
+@implementation TPSuperBoardImageCropViewController
 
 - (instancetype)initWithImage:(UIImage *)image
 {
@@ -35,7 +35,7 @@
     self.navigationItem.rightBarButtonItem = item;
     
     
-    ImageCropView *cropView = [[ImageCropView alloc] initWithFrame:CGRectMake(0, 0, self.view.tpWidth, self.view.tpHeight ) image:_image];
+    TPSuperBoardImageCropView *cropView = [[TPSuperBoardImageCropView alloc] initWithFrame:CGRectMake(0, 0, self.view.tpWidth, self.view.tpHeight ) image:_image];
     _imageCropView = cropView;
     [self.view addSubview:cropView];
     

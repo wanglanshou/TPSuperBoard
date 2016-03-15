@@ -17,7 +17,7 @@ typedef NS_ENUM(NSInteger, PenSize) {
 };
 
 
-@interface PenStyleModel : NSObject<NSCopying>
+@interface TPSuperBoardPenStyleModel : NSObject<NSCopying>
 
 + (instancetype) sharedInstance;
 

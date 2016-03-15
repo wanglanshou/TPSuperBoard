@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 张珏. All rights reserved.
 //
 
-#import "SuperBoardMainView.h"
-#import "SuperBoardRightView.h"
+#import "TPSuperBoardMainView.h"
+#import "TPSuperBoardRightView.h"
 
-#import "SuperBoardBottomView.h"
-#import "SuperBoardScrollView.h"
+#import "TPSuperBoardBottomView.h"
+#import "TPSuperBoardScrollView.h"
 
-#import "TPMiniMapView.h"
+#import "TPSuperBoardMiniMapView.h"
 
-#import "PenStyleModel.h"
+#import "TPSuperBoardPenStyleModel.h"
 
 #import "TPSuperBoardColorPickerView.h"
 
@@ -27,13 +27,13 @@
 #define TOPBUTTON_HEIGHT 66
 
 
-@interface SuperBoardMainView()
+@interface TPSuperBoardMainView()
 {
-    SuperBoardScrollView *_scrollView;
+    TPSuperBoardScrollView *_scrollView;
     
-    SuperBoardRightView *_rightView;//右边显示画笔
+    TPSuperBoardRightView *_rightView;//右边显示画笔
     CGPoint _prePoint;
-    TPMiniMapView *_airscapeView;//鸟瞰图
+    TPSuperBoardMiniMapView *_airscapeView;//鸟瞰图
     
     
     NSArray *_topImageArray;
@@ -44,7 +44,7 @@
 
 @end
 
-@implementation SuperBoardMainView
+@implementation TPSuperBoardMainView
 
 - (void)dealloc
 {
@@ -74,22 +74,22 @@
 - (void)initSubViews
 {
     
-    SuperBoardScrollView *whiteBoardScrollView = [[SuperBoardScrollView alloc] initWithFrame:CGRectMake(0, 0, self.tpWidth, self.tpHeight -44)];
+    TPSuperBoardScrollView *whiteBoardScrollView = [[TPSuperBoardScrollView alloc] initWithFrame:CGRectMake(0, 0, self.tpWidth, self.tpHeight -44)];
     whiteBoardScrollView.mainView = self;
     _scrollView = whiteBoardScrollView;
     [self addSubview:whiteBoardScrollView];
     
-    SuperBoardRightView *rightView = [[SuperBoardRightView alloc] initWithFrame:CGRectMake(self.tpWidth - RIGHTVIEW_WIDTH, RIGHTVIEW_TOP, RIGHTVIEW_WIDTH, self.tpHeight - RIGHTVIEW_TOP - 50)];
+    TPSuperBoardRightView *rightView = [[TPSuperBoardRightView alloc] initWithFrame:CGRectMake(self.tpWidth - RIGHTVIEW_WIDTH, RIGHTVIEW_TOP, RIGHTVIEW_WIDTH, self.tpHeight - RIGHTVIEW_TOP - 50)];
     _rightView = rightView;
     rightView.backgroundColor = [UIColor tpColorWithRed:81 green:82 blue:85];
     [self addSubview:rightView];
     [self initFourButton];
     
-    SuperBoardBottomView *bottomView= [[SuperBoardBottomView alloc] initWithFrame:CGRectMake(0, self.tpHeight - 44, self.tpWidth, 44)];
+    TPSuperBoardBottomView *bottomView= [[TPSuperBoardBottomView alloc] initWithFrame:CGRectMake(0, self.tpHeight - 44, self.tpWidth, 44)];
     bottomView.mainView = self;
     [self addSubview:bottomView];
     
-    TPMiniMapView *airscapeView = [[TPMiniMapView alloc] initWithFrame:CGRectMake(10, 10, 40, 40 * _scrollView.tpHeight/_scrollView.tpWidth)];
+    TPSuperBoardMiniMapView *airscapeView = [[TPSuperBoardMiniMapView alloc] initWithFrame:CGRectMake(10, 10, 40, 40 * _scrollView.tpHeight/_scrollView.tpWidth)];
     _airscapeView = airscapeView;
     [self addSubview:airscapeView];
     
@@ -118,7 +118,7 @@
     UIView *colorView = [[UIView alloc] initWithFrame:CGRectMake(TOPBUTTON_WIDTH * 0.32, TOPBUTTON_HEIGHT *0.64, TOPBUTTON_WIDTH * 0.38, TOPBUTTON_WIDTH * 0.38)];
     _colorView = colorView;
     colorView.userInteractionEnabled = NO;
-    colorView.backgroundColor = [PenStyleModel sharedInstance].color;
+    colorView.backgroundColor = [TPSuperBoardPenStyleModel sharedInstance].color;
     colorView.layer.cornerRadius = colorView.tpWidth/2;
     [lastBtnView addSubview:colorView];
     [self bottomBtnClicked:(UIButton *)[self viewWithTag:200]];
@@ -126,13 +126,13 @@
 }
 - (void)colorDidChange
 {
-    _colorView.backgroundColor = [PenStyleModel sharedInstance].color;
+    _colorView.backgroundColor = [TPSuperBoardPenStyleModel sharedInstance].color;
 }
 
 - (void)bottomBtnClicked:(UIButton *)btn
 {
     _scrollView.scrollEnabled = NO;
-    PenStyleModel *penStyleModel = [PenStyleModel sharedInstance];
+    TPSuperBoardPenStyleModel *penStyleModel = [TPSuperBoardPenStyleModel sharedInstance];
     penStyleModel.isEraser = NO;
 
     for (int i=200; i<204; i++) {

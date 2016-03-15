@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SuperBoardViewController.h"
+#import "TPSuperBoardViewController.h"
 @interface ViewController ()<SuperBoardViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *imageVIew;
 
@@ -16,7 +16,7 @@
 @implementation ViewController
 - (IBAction)btnCicked:(id)sender {
  
-    SuperBoardViewController *superBoardViewController = [[SuperBoardViewController alloc] init];
+    TPSuperBoardViewController *superBoardViewController = [[TPSuperBoardViewController alloc] init];
     superBoardViewController.delegate = self;
     superBoardViewController.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:superBoardViewController animated:YES];

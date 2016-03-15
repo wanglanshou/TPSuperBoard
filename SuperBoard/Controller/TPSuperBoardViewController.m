@@ -6,17 +6,17 @@
 //  Copyright (c) 2015年 张珏. All rights reserved.
 //
 
-#import "SuperBoardViewController.h"
+#import "TPSuperBoardViewController.h"
 #import "TPSuperboardDefine.h"
 
-#import "SuperBoardMainView.h"
-@interface SuperBoardViewController ()
+#import "TPSuperBoardMainView.h"
+@interface TPSuperBoardViewController ()
 {
-    SuperBoardMainView *_mainView;
+    TPSuperBoardMainView *_mainView;
 }
 @end
 
-@implementation SuperBoardViewController
+@implementation TPSuperBoardViewController
 
 
 - (void)viewDidLoad {
@@ -27,7 +27,7 @@
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStyleDone target:self action:@selector(send)];
     self.navigationItem.rightBarButtonItem = rightItem;
     
-    SuperBoardMainView *mainView = [[SuperBoardMainView alloc] initWithFrame:CGRectMake(0, 64, self.view.tpWidth, self.view.tpHeight - 64)];
+    TPSuperBoardMainView *mainView = [[TPSuperBoardMainView alloc] initWithFrame:CGRectMake(0, 64, self.view.tpWidth, self.view.tpHeight - 64)];
     _mainView = mainView;
     mainView.backgroundColor = [UIColor greenColor];
     [self.view addSubview:mainView];

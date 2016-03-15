@@ -15,7 +15,7 @@
 
 @end
 
-@interface SuperBoardViewController : UIViewController
+@interface TPSuperBoardViewController : UIViewController
 
 @property (nonatomic,weak) id<SuperBoardViewControllerDelegate> delegate;
 

@@ -7,7 +7,7 @@
 //
 
 #import "TPSuperBoardColorPickerView.h"
-#import "PenStyleModel.h"
+#import "TPSuperBoardPenStyleModel.h"
 
 #import "TPSuperboardDefine.h"
 @interface TPSuperBoardColorPickerView()<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
@@ -98,7 +98,7 @@
     
     UIColor *color = [_colorArray objectAtIndex:indexPath.row];
     
-    if (CGColorEqualToColor(color.CGColor, [PenStyleModel sharedInstance].color.CGColor) ) {
+    if (CGColorEqualToColor(color.CGColor, [TPSuperBoardPenStyleModel sharedInstance].color.CGColor) ) {
         cell.isSelected = YES;
     }else{
         cell.isSelected = NO;
@@ -111,7 +111,7 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    PenStyleModel *penStyleModel = [PenStyleModel sharedInstance];
+    TPSuperBoardPenStyleModel *penStyleModel = [TPSuperBoardPenStyleModel sharedInstance];
     penStyleModel.color = [_colorArray objectAtIndex:indexPath.row];
     
     [self removeFromSuperview];

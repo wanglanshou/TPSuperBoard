@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@class SuperBoardScrollView;
+@class TPSuperBoardScrollView;
 
 @interface TPSuperBoardCanvasView : UIView
 
-@property (nonatomic,weak) SuperBoardScrollView *scrollView;
+@property (nonatomic,weak) TPSuperBoardScrollView *scrollView;
 
 - (void)undoPreStep;
 

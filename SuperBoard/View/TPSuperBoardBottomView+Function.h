@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 张珏. All rights reserved.
 //
 
-#import "SuperBoardBottomView.h"
-#import "ImageCropViewController.h"
-@interface SuperBoardBottomView (Function)<UINavigationControllerDelegate, UIImagePickerControllerDelegate,ImageCropDelegate>
+#import "TPSuperBoardBottomView.h"
+#import "TPSuperBoardImageCropViewController.h"
+@interface TPSuperBoardBottomView (Function)<UINavigationControllerDelegate, UIImagePickerControllerDelegate,ImageCropDelegate>
 
 - (void)inputImage;
 

@@ -6,11 +6,11 @@
 //  Copyright (c) 2015年 张珏. All rights reserved.
 //
 
-#import "WhiteBoardBottomView+Function.h"
-#import "SuperBoardMainView.h"
+#import "TPSuperBoardBottomView+Function.h"
+#import "TPSuperBoardMainView.h"
 
 #import "TPSuperboardDefine.h"
-@implementation SuperBoardBottomView (Function)
+@implementation TPSuperBoardBottomView (Function)
 
 
 #pragma mark - 选择图片
@@ -38,7 +38,7 @@
     [picker dismissViewControllerAnimated:YES completion:nil];
     
     
-    ImageCropViewController *cropViewController = [[ImageCropViewController alloc] initWithImage:image];
+    TPSuperBoardImageCropViewController *cropViewController = [[TPSuperBoardImageCropViewController alloc] initWithImage:image];
     cropViewController.delegate = self;
     [[self tpGetViewController].navigationController pushViewController:cropViewController animated:YES];
     

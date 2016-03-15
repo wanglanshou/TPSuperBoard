@@ -6,11 +6,11 @@
 //  Copyright (c) 2015年 wp. All rights reserved.
 //
 
-#import "ImageCropView.h"
+#import "TPSuperBoardImageCropView.h"
 
 
 #import "TPSuperboardDefine.h"
-@interface ImageCropView()
+@interface TPSuperBoardImageCropView()
 {
     UIImage *_image;
     
@@ -28,7 +28,7 @@
 
 @end
 
-@implementation ImageCropView
+@implementation TPSuperBoardImageCropView
 
 
 - (instancetype)initWithFrame:(CGRect)frame image:(UIImage *)image;

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SuperBoardMainView : UIView
+@interface TPSuperBoardMainView : UIView
 
 - (void)showViewLocatedX:(CGFloat)xPercent y:(CGFloat)yPercent sizeScale:(CGFloat)scale thumbnailImage:(UIImage *)thumbnailImage;
 
