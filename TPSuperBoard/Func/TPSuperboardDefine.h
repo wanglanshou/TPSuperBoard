@@ -9,8 +9,6 @@
 #ifndef TPSuperboardDefine_h
 #define TPSuperboardDefine_h
 
-
-#import <TPBasePreDefine.h>
 #import "TPBasePreDefine.h"
 
 
